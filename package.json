@@ -1,0 +1,6 @@
+{
+	"name": "map-load",
+	"version": "0.0.0",
+	"hidden": true,
+	"plugin": "plugin.js"
+}
