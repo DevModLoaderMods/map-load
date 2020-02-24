@@ -2,6 +2,7 @@ const {Client} = window.ToolsApi.Communication;
 
 export default class ReloaderClient extends Client {
     constructor(ig) {
+		super();
         this.ig = ig;
     }
 

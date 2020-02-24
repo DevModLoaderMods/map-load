@@ -1,5 +1,5 @@
-import ReloaderClient from "./map-loader-client";
-const {Api} = windows.ToolsApi.Communication;
+import ReloaderClient from "./map-loader-client.js";
+const {Api} = window.ToolsApi.Communication;
 
 export default class MapLoad extends Plugin {
 	constructor(mod) {
