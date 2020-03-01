@@ -24,7 +24,7 @@ ig.module("map-loader").requires("impact.base.game").defines(function() {
         },
 
         onPreUpdate() {
-            if (ig.ready) {
+            if (ig.ready && !ig.game.paused) {
                 if (sc.model.isRunning() || sc.model.isGame()) {
                     if (this.rawMap) {
                         const map = this.rawMap;
