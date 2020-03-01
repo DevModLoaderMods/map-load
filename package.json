@@ -2,5 +2,7 @@
 	"name": "map-load",
 	"version": "0.0.0",
 	"hidden": true,
-	"plugin": "plugin.js"
+	"plugin": "plugin.js",
+	"postload" : "postload.js",
+	"module": true
 }
